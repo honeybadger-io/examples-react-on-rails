@@ -1,4 +1,4 @@
-require 'test_helper'
+require "test_helper"
 
 class RouterControllerTest < ActionDispatch::IntegrationTest
   test "gets index" do
