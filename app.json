@@ -1,0 +1,35 @@
+{
+  "name": "HoneybadgerWithReactOnRails",
+  "description": "An example Rails/ReactOnRails application with client-side error reporting, server-side error reporting, and source maps.",
+  "repository": "https://github.com/honeybadger-io/examples-react-on-rails",
+  "logo": "https://honeybadger-static.s3.amazonaws.com/brand_assets/honeybadger_bolt/honeybadger_bolt.svg",
+  "keywords": ["Honeybadger", "Rails", "React", "React on Rails", "Webpack", "Webpacker", "source map", "JavaScript"],
+  "env": {
+    "HONEYBADGER_ASSETS_URL": {
+      "description": "'assetsUrl' parameter for Honeybader Webpack Source Map plugin, change to match your environment by changing YOUR-HEROKU-SLUG-NAME",
+      "required": true,
+      "value": "https://YOUR-HEROKU-SLUG-NAME.herokuapp.com/packs"
+    },
+    "HONEYBADGER_REVISION": {
+      "description": "the current git commit SHA that corresponds to the 'revision' parameter in the honeybadger-js configuration",
+      "required": true,
+      "value": "master"
+    },
+    "RAILS_ENV": {
+      "description": "the rails env",
+      "required": true,
+      "value": "production"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/ruby"
+    }
+  ],
+  "addons": [
+    "honeybadger"
+  ]
+}

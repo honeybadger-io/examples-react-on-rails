@@ -1,24 +1,23 @@
-# README
+# Honeybadger on React on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> [Honeybadger](https://www.honeybadger.io) is a badass error monitoring service for full stack web apps.
 
-Things you may want to cover:
+> [React on Rails](https://github.com/shakacode/react_on_rails) integrates Rails with (server rendering of) Facebook's React front-end framework.
 
-* Ruby version
+**Honeybadger on React on Rails** provides a simple example of how to integrate
+Honeybadger with React on Rails to unlock Universal (Isomorphic) error
+reporting in your React-based Rails apps.
 
-* System dependencies
+## Quick Start
 
-* Configuration
+The easiest way to get started with this application is to deploy it to Heroku
+with the Heroku Button:
 
-* Database creation
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-* Database initialization
+Using that button will spin up a Heroku app for you with the Honeybadger
+add-on already added to the app.
 
-* How to run the test suite
+## Slightly Less Quick Start
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The rest of this README is forthcoming.

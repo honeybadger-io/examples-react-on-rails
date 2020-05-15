@@ -169,16 +169,6 @@ GEM
       rubocop (>= 0.71.0)
     ruby-progressbar (1.10.1)
     rubyzip (2.3.0)
-    sass-rails (6.0.0)
-      sassc-rails (~> 2.1, >= 2.1.1)
-    sassc (2.3.0)
-      ffi (~> 1.9)
-    sassc-rails (2.1.2)
-      railties (>= 4.0.0)
-      sassc (>= 2.0)
-      sprockets (> 3.0)
-      sprockets-rails
-      tilt
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
@@ -194,7 +184,6 @@ GEM
       rubocop-performance (~> 1.5.2)
     thor (1.0.1)
     thread_safe (0.3.6)
-    tilt (2.0.10)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
     unicode-display_width (1.7.0)
@@ -232,7 +221,6 @@ DEPENDENCIES
   puma (~> 4.1)
   rails (~> 6.0.3)
   react_on_rails (= 11.1.4)
-  sass-rails (>= 6)
   selenium-webdriver
   standard (~> 0.4.1)
   tzinfo-data
