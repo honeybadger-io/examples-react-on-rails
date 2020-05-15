@@ -47,3 +47,5 @@ gem "mini_racer", platforms: :ruby
 gem "execjs", "~> 2.7"
 
 gem "standard", "~> 0.4.1"
+
+gem "honeybadger", "~> 4.6"
