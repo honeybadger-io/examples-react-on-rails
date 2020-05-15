@@ -44,3 +44,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "react_on_rails", "= 11.1.4"
 
 gem 'mini_racer', platforms: :ruby
+gem "execjs", "~> 2.7"
