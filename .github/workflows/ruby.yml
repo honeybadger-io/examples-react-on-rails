@@ -41,11 +41,15 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-yarn-
     - name: Install dependencies
+      env:
+        RAILS_ENV: test
       run: |
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
         yarn install
     - name: Run tests
+      env:
+        RAILS_ENV: test
       run: |
         bundle exec standardrb .
         bundle exec rake test test:system
