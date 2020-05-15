@@ -25,6 +25,8 @@ jobs:
       with:
         ruby-version: 2.7
     - name: Install dependencies
-      run: bundle install
+      run: |
+        bundle install
+        yarn install
     - name: Run tests
       run: bundle exec rake
