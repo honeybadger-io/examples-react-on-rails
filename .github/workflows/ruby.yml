@@ -29,4 +29,6 @@ jobs:
         bundle install
         yarn install
     - name: Run tests
-      run: bundle exec rake
+      run: |
+        bundle exec standardrb .
+        bundle exec rake test test:system
