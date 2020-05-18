@@ -84,7 +84,6 @@ GEM
     honeybadger (4.6.0)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
-    jaro_winkler (1.5.4)
     libv8 (7.3.492.27.1)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -157,8 +156,7 @@ GEM
       rainbow (~> 3.0)
     regexp_parser (1.7.0)
     rexml (3.2.4)
-    rubocop (0.82.0)
-      jaro_winkler (~> 1.5.1)
+    rubocop (0.83.0)
       parallel (~> 1.10)
       parser (>= 2.7.0.1)
       rainbow (>= 2.2.2, < 4.0)
@@ -180,8 +178,8 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    standard (0.4.1)
-      rubocop (~> 0.82.0)
+    standard (0.4.2)
+      rubocop (~> 0.83.0)
       rubocop-performance (~> 1.5.2)
     thor (1.0.1)
     thread_safe (0.3.6)
@@ -224,7 +222,7 @@ DEPENDENCIES
   rails (~> 6.0.3)
   react_on_rails (= 11.3.0)
   selenium-webdriver
-  standard (~> 0.4.1)
+  standard (~> 0.4.2)
   tzinfo-data
   web-console (>= 3.3.0)
   webdrivers
