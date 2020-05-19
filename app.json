@@ -3,20 +3,29 @@
   "description": "An example Rails/ReactOnRails application with client-side error reporting, server-side error reporting, and source maps.",
   "repository": "https://github.com/honeybadger-io/examples-react-on-rails",
   "logo": "https://honeybadger-static.s3.amazonaws.com/brand_assets/honeybadger_bolt/honeybadger_bolt.svg",
-  "keywords": ["Honeybadger", "Rails", "React", "React on Rails", "Webpack", "Webpacker", "source map", "JavaScript"],
+  "keywords": [
+    "Honeybadger",
+    "Rails",
+    "React",
+    "React on Rails",
+    "Webpack",
+    "Webpacker",
+    "source map",
+    "JavaScript"
+  ],
   "env": {
     "HONEYBADGER_ASSETS_URL": {
-      "description": "'assetsUrl' parameter for Honeybader Webpack Source Map plugin, change to match your environment by changing YOUR-HEROKU-SLUG-NAME",
+      "description": "Give your app a unique app name above ^ and then replace `YOUR-HEROKU-APP-NAME` with the same name. This is the base URL of your production Webpacker packs (used by the `@honeybadger-io/webpack` plugin to upload source maps to Honeybadger.io).",
       "required": true,
-      "value": "https://YOUR-HEROKU-SLUG-NAME.herokuapp.com/packs"
+      "value": "https://YOUR-HEROKU-APP-NAME.herokuapp.com/packs"
     },
     "HONEYBADGER_REVISION": {
-      "description": "the current git commit SHA that corresponds to the 'revision' parameter in the honeybadger-js configuration",
+      "description": "Use the default \"master\". This would normally be updated with the latest GIT commit in your deploy script.",
       "required": true,
       "value": "master"
     },
     "RAILS_ENV": {
-      "description": "the rails env",
+      "description": "The Rails environment you're deploying. Use \"production\".",
       "required": true,
       "value": "production"
     }
