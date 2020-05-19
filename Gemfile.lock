@@ -111,7 +111,7 @@ GEM
     parser (2.7.1.2)
       ast (~> 2.4.0)
     public_suffix (4.0.5)
-    puma (4.3.3)
+    puma (4.3.4)
       nio4r (~> 2.0)
     rack (2.2.2)
     rack-proxy (0.6.5)
@@ -220,7 +220,7 @@ DEPENDENCIES
   honeybadger (~> 4.6)
   listen (~> 3.2)
   mini_racer
-  puma (~> 4.1)
+  puma (~> 4.3)
   rails (~> 6.0.3)
   react_on_rails (= 11.3.0)
   selenium-webdriver
