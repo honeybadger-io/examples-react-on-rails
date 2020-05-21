@@ -179,7 +179,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    standard (0.4.2)
+    standard (0.4.3)
       rubocop (~> 0.83.0)
       rubocop-performance (~> 1.5.2)
     thor (1.0.1)
@@ -224,7 +224,7 @@ DEPENDENCIES
   rails (~> 6.0.3)
   react_on_rails (= 11.3.0)
   selenium-webdriver
-  standard (~> 0.4.2)
+  standard (~> 0.4.3)
   tzinfo-data
   web-console (>= 3.3.0)
   webdrivers
