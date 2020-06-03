@@ -40,4 +40,4 @@ gem "standard", "~> 0.4.6"
 
 # Report Rails exceptions
 # https://docs.honeybadger.io/lib/ruby/integration-guides/rails-exception-tracking.html
-gem "honeybadger", "~> 4.6"
+gem "honeybadger", "~> 4.7"
