@@ -82,7 +82,7 @@ GEM
     foreman (0.87.2)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    honeybadger (4.7.0)
+    honeybadger (4.7.1)
     i18n (1.8.3)
       concurrent-ruby (~> 1.0)
     libv8 (8.4.255.0)
