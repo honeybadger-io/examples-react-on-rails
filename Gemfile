@@ -6,7 +6,7 @@ ruby "2.7.1"
 # The following gems are from `rails new`:
 gem "rails", "~> 6.0.3"
 gem "puma", "~> 4.3"
-gem "webpacker", "~> 5.1"
+gem "webpacker", "~> 5.2"
 gem "bootsnap", ">= 1.4.2", require: false
 
 group :development, :test do
