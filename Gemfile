@@ -28,7 +28,7 @@ end
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Added by `rails generate react_on_rails:install`
-gem "react_on_rails", "12.0.1"
+gem "react_on_rails", "12.0.2"
 gem "mini_racer", platforms: :ruby
 
 # This was necessary to fix a missing constant `ExecJS` error when server-rendering
