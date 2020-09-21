@@ -110,7 +110,7 @@ GEM
     parallel (1.19.1)
     parser (2.7.1.3)
       ast (~> 2.4.0)
-    public_suffix (4.0.5)
+    public_suffix (4.0.6)
     puma (5.0.0)
       nio4r (~> 2.0)
     rack (2.2.3)
@@ -149,7 +149,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    react_on_rails (12.0.2)
+    react_on_rails (12.0.3)
       addressable
       connection_pool
       execjs (~> 2.5)
@@ -180,7 +180,7 @@ GEM
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
-    sprockets-rails (3.2.1)
+    sprockets-rails (3.2.2)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
@@ -227,7 +227,7 @@ DEPENDENCIES
   mini_racer
   puma (~> 5.0)
   rails (~> 6.0.3)
-  react_on_rails (= 12.0.2)
+  react_on_rails (= 12.0.3)
   selenium-webdriver
   standard (~> 0.4.7)
   tzinfo-data
