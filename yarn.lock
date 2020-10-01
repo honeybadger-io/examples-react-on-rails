@@ -864,12 +864,12 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@honeybadger-io/react@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@honeybadger-io/react/-/react-0.0.7.tgz#c538339b2c8eb90620762051c712ed779213eb88"
-  integrity sha512-rxL12I8kEdV99E8E4sbjCqzo3s+4826CgHv0TeH4bSvixtMpMPEI5XYXwI98lvGfnVDNTxIyZ56frrseN6wvuA==
+"@honeybadger-io/react@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@honeybadger-io/react/-/react-0.0.8.tgz#f92acda61bb4ff591d1f7cfa6ad7026cd1d8a192"
+  integrity sha512-FO9UOntvyGrLpmal82N02JOjtdfi7YaYW+oF+XsnbilnDpzZ3vqmvI4wM1ecJH/ah2u4daJFAW+w66S4WlHmgA==
   dependencies:
-    honeybadger-js "^2.2.1"
+    honeybadger-js "^2.3.0"
 
 "@honeybadger-io/webpack@^1.2.0":
   version "1.2.0"
@@ -3430,10 +3430,10 @@ homedir-polyfill@^1.0.1:
   dependencies:
     parse-passwd "^1.0.0"
 
-honeybadger-js@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/honeybadger-js/-/honeybadger-js-2.2.1.tgz#96c775cb5d016efd9597c0293cfc6ef4cb956579"
-  integrity sha512-KF1azMMFLm9km019DEORB5PaWGw5SylE8WTxXoG96655QFHXA4ToM5t+8/Po9TKZ5YhrULTVow6ly1h2aQ8qpg==
+honeybadger-js@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/honeybadger-js/-/honeybadger-js-2.3.0.tgz#040200066d60a8c1eca036e9f8568f9cff8b8d55"
+  integrity sha512-Tq1jPNumPe/l5RRDPDi+KNGULoaJQ9BSVZC+TEZOlPUzJx3AUn5ESb2NkCd7oSx/J221/aWUfz2/JrltHldx7A==
 
 hosted-git-info@^2.1.4:
   version "2.8.8"
