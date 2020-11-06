@@ -36,7 +36,7 @@ gem "execjs", "~> 2.7"
 
 # Consistent style
 # https://github.com/testdouble/standard
-gem "standard", "~> 0.8"
+gem "standard", "~> 0.9"
 
 # Report Rails exceptions
 # https://docs.honeybadger.io/lib/ruby/integration-guides/rails-exception-tracking.html
