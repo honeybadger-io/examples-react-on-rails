@@ -76,7 +76,7 @@ GEM
     concurrent-ruby (1.1.7)
     connection_pool (2.2.3)
     crass (1.0.6)
-    erubi (1.9.0)
+    erubi (1.10.0)
     execjs (2.7.0)
     ffi (1.13.1)
     foreman (0.87.2)
@@ -149,7 +149,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    react_on_rails (12.0.3)
+    react_on_rails (12.0.4)
       addressable
       connection_pool
       execjs (~> 2.5)
@@ -190,7 +190,7 @@ GEM
       rubocop-performance (= 1.8.1)
     thor (1.0.1)
     thread_safe (0.3.6)
-    tzinfo (1.2.7)
+    tzinfo (1.2.8)
       thread_safe (~> 0.1)
     unicode-display_width (1.7.0)
     web-console (4.0.4)
@@ -212,7 +212,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.4.0)
+    zeitwerk (2.4.1)
 
 PLATFORMS
   ruby
@@ -228,7 +228,7 @@ DEPENDENCIES
   mini_racer
   puma (~> 5.0)
   rails (~> 6.0.3)
-  react_on_rails (= 12.0.3)
+  react_on_rails (= 12.0.4)
   selenium-webdriver
   standard (~> 0.8)
   tzinfo-data
