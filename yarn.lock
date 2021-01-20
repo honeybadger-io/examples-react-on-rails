@@ -1033,12 +1033,19 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@honeybadger-io/react@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@honeybadger-io/react/-/react-0.0.8.tgz#f92acda61bb4ff591d1f7cfa6ad7026cd1d8a192"
-  integrity sha512-FO9UOntvyGrLpmal82N02JOjtdfi7YaYW+oF+XsnbilnDpzZ3vqmvI4wM1ecJH/ah2u4daJFAW+w66S4WlHmgA==
+"@honeybadger-io/js@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@honeybadger-io/js/-/js-3.0.0.tgz#853e91f5ce3ac050f6f7a6df2c93ed6ddccdad26"
+  integrity sha512-lgUkClIfcPd0KwaLHoxzMrug2xx4Q5Ub8bglH0or/7y5f6GaxtMptlZDpchdISBD9XDty55iQU8f+2vMumnPyw==
   dependencies:
-    honeybadger-js "^2.3.0"
+    stacktrace-parser "^0.1.10"
+
+"@honeybadger-io/react@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@honeybadger-io/react/-/react-1.0.0.tgz#57396b0aec5e973511cf32c964328dab2daeebf7"
+  integrity sha512-v4acPd6AfcXrkd9KH2F5d1zC04WZ3ADP3s/hL+LCHrtjsOpznsa1QgJv1Q1/rUcdW8VQD84db1GT19LHPBmTSg==
+  dependencies:
+    "@honeybadger-io/js" "^3.0.0"
 
 "@honeybadger-io/webpack@^1.2.0":
   version "1.2.0"
@@ -3691,11 +3698,6 @@ homedir-polyfill@^1.0.1:
   integrity sha512-eSmmWE5bZTK2Nou4g0AI3zZ9rswp7GRKoKXS1BLUkvPviOqs4YTN1djQIqrXy9k5gEtdLPy86JjRwsNM9tnDcA==
   dependencies:
     parse-passwd "^1.0.0"
-
-honeybadger-js@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/honeybadger-js/-/honeybadger-js-2.3.0.tgz#040200066d60a8c1eca036e9f8568f9cff8b8d55"
-  integrity sha512-Tq1jPNumPe/l5RRDPDi+KNGULoaJQ9BSVZC+TEZOlPUzJx3AUn5ESb2NkCd7oSx/J221/aWUfz2/JrltHldx7A==
 
 hosted-git-info@^2.1.4:
   version "2.8.8"
@@ -7213,6 +7215,13 @@ stable@^0.1.8:
   resolved "https://registry.yarnpkg.com/stable/-/stable-0.1.8.tgz#836eb3c8382fe2936feaf544631017ce7d47a3cf"
   integrity sha512-ji9qxRnOVfcuLDySj9qzhGSEFVobyt1kIOSkj1qZzYLzq7Tos/oUUWvotUPQLlrsidqsK6tBH89Bc9kL5zHA6w==
 
+stacktrace-parser@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/stacktrace-parser/-/stacktrace-parser-0.1.10.tgz#29fb0cae4e0d0b85155879402857a1639eb6051a"
+  integrity sha512-KJP1OCML99+8fhOHxwwzyWrlUuVX5GQ0ZpJTd1DFXhdkrvg1szxfHhawXUZ3g9TkXORQd4/WG68jMlQZ2p8wlg==
+  dependencies:
+    type-fest "^0.7.1"
+
 static-extend@^0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/static-extend/-/static-extend-0.1.2.tgz#60809c39cbff55337226fd5e0b520f341f1fb5c6"
@@ -7653,6 +7662,11 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
+
+type-fest@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.7.1.tgz#8dda65feaf03ed78f0a3f9678f1869147f7c5c48"
+  integrity sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==
 
 type-is@~1.6.17, type-is@~1.6.18:
   version "1.6.18"
