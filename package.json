@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.12.1",
-    "@honeybadger-io/react": "^0.0.8",
+    "@honeybadger-io/react": "^1.0.0",
     "@honeybadger-io/webpack": "^1.2.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "5.2.1",
