@@ -16,7 +16,7 @@ export default (props, _railsContext) => {
 
     const config = {
       apiKey: process.env.HONEYBADGER_API_KEY,
-      environment: process.env.NODE_ENV || 'development',
+      environment: process.env.RAILS_ENV || 'development',
       revision: process.env.HONEYBADGER_REVISION,
       reportData: true
     }
