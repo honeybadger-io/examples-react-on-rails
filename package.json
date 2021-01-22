@@ -2,10 +2,10 @@
   "name": "examples_react_on_rails",
   "private": true,
   "dependencies": {
-    "@babel/preset-react": "^7.12.1",
+    "@babel/preset-react": "^7.12.10",
     "@honeybadger-io/react": "^1.0.0",
     "@honeybadger-io/webpack": "^1.2.0",
-    "@rails/ujs": "^6.0.0",
+    "@rails/ujs": "^6.1.1",
     "@rails/webpacker": "5.2.1",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "prop-types": "^15.7.2",
@@ -16,6 +16,6 @@
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.2"
   }
 }
