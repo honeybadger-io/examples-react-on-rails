@@ -151,7 +151,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    react_on_rails (12.0.3)
+    react_on_rails (12.0.4)
       addressable
       connection_pool
       execjs (~> 2.5)
@@ -230,7 +230,7 @@ DEPENDENCIES
   mini_racer
   puma (~> 5.0)
   rails (~> 6.0.3)
-  react_on_rails (= 12.0.3)
+  react_on_rails (= 12.0.4)
   selenium-webdriver
   standard (~> 0.8)
   tzinfo-data
