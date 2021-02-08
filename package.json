@@ -2,7 +2,7 @@
   "name": "examples_react_on_rails",
   "private": true,
   "dependencies": {
-    "@babel/preset-react": "^7.12.10",
+    "@babel/preset-react": "^7.12.13",
     "@honeybadger-io/react": "^1.0.0",
     "@honeybadger-io/webpack": "^1.2.0",
     "@rails/ujs": "^6.1.1",
