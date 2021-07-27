@@ -970,12 +970,12 @@
     "@babel/plugin-transform-react-jsx-development" "^7.12.12"
     "@babel/plugin-transform-react-pure-annotations" "^7.12.1"
 
-"@babel/runtime-corejs3@^7.9.6":
-  version "7.11.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.11.2.tgz#02c3029743150188edeb66541195f54600278419"
-  integrity sha512-qh5IR+8VgFz83VBa6OkaET6uN/mJOhHONuy3m1sgF0CV6mXdPSEBdA7e1eUbVvyNtANjMbg22JUv71BaDXLY6A==
+"@babel/runtime-corejs3@^7.12.5":
+  version "7.14.8"
+  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.14.8.tgz#68539e0129f13eb1ed9a9aa273d3542b93c88384"
+  integrity sha512-4dMD5QRBkumn45oweR0SxoNtt15oz3BUBAQ8cIx7HJqZTtE8zjpM0My8aHJHVnyf4XfRg6DNzaE1080WLBiC1w==
   dependencies:
-    core-js-pure "^3.0.0"
+    core-js-pure "^3.15.0"
     regenerator-runtime "^0.13.4"
 
 "@babel/runtime@^7.1.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
@@ -2373,10 +2373,10 @@ core-js-compat@^3.6.2:
     browserslist "^4.8.5"
     semver "7.0.0"
 
-core-js-pure@^3.0.0:
-  version "3.6.5"
-  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.6.5.tgz#c79e75f5e38dbc85a662d91eea52b8256d53b813"
-  integrity sha512-lacdXOimsiD0QyNf9BC/mxivNJ/ybBGJXQFKzRekp1WTHoVUWsUHEn+2T8GJAzzIhyOuXA+gOxCVN3l+5PLPUA==
+core-js-pure@^3.15.0:
+  version "3.15.2"
+  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.15.2.tgz#c8e0874822705f3385d3197af9348f7c9ae2e3ce"
+  integrity sha512-D42L7RYh1J2grW8ttxoY1+17Y4wXZeKe7uyplAI3FkNQyI5OgBIAjUfFiTPfL1rs0qLpxaabITNbjKl1Sp82tA==
 
 core-js@^3.6.5:
   version "3.6.5"
@@ -6426,12 +6426,12 @@ react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-on-rails@12.0.4:
-  version "12.0.4"
-  resolved "https://registry.yarnpkg.com/react-on-rails/-/react-on-rails-12.0.4.tgz#111276ef21160872e9a044efcda489b8b069b189"
-  integrity sha512-pmSrDvBVKoCj38ueLLTtrqCUGhGs6st4vmun+5duJp7ucDEHGs494yVgbRF88gn6/nzkRMYkPA1jEg4BIPE+gg==
+react-on-rails@12.3.0:
+  version "12.3.0"
+  resolved "https://registry.yarnpkg.com/react-on-rails/-/react-on-rails-12.3.0.tgz#efc8c7ad1be8ba51be61565f33f695d299c4567d"
+  integrity sha512-VtX9UNpOgCJGxVjaObWCeg3Tr18d2lm2W3x4GXxZsKfxhJmwCJyOEXJJGRTyKE6t78mK6SIMzW+St9sYGKvJow==
   dependencies:
-    "@babel/runtime-corejs3" "^7.9.6"
+    "@babel/runtime-corejs3" "^7.12.5"
     concurrently "^5.1.0"
 
 react-router-dom@^5.2.0:
